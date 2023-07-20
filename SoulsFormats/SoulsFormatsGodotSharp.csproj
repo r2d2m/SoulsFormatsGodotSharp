@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net7.0</TargetFrameworks>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Description>A .NET library for reading and writing FromSoftware file formats. That has been hacked to work with Godot Engine.</Description>
+    <Authors>Joseph Anderson (Original), blitz-krieg-cmd (Godot Hack)</Authors>
+    <PackageProjectUrl>https://github.com/blitz-krieg-cmd/SoulsFormatsGodotSharp</PackageProjectUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="GodotSharp" Version="4.1.1" />
+  </ItemGroup>
+</Project>
